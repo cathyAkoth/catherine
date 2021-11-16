@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
     --border-color:#2e344e;
     --background-light-color: #f1f1f1;
     --white-color: #fff;
-    --font-light-color: #24acc4;
+    --font-light-color: #a4acc4;
     --font-dark-color: #313131;
     --font-dark-color-2: #151515;
 }

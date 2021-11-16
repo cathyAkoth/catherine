@@ -66,6 +66,8 @@ const NavigationStyled = styled.nav`
                 display:block;
                 padding: .2rem 0;
                 position:relative;
+                z-index:4;
+                
                 &:hover{
                     cursor:pointer;
 
@@ -78,6 +80,10 @@ const NavigationStyled = styled.nav`
                     width:0;
                     height:50%;
                     background-color:purple;
+                    transition:All 0.4s cubic-bezier(1, -0.2, 0.25, 0.95);
+                    z-index:3;
+                    opacity:0.21;
+                    transform-origin:right;
                 }
             }
             a:hover::before{
@@ -95,6 +101,7 @@ const NavigationStyled = styled.nav`
             font-size:1.1rem;
             display:block;
             text-align:center;
+            color:purple;
         }
     }
 `;
