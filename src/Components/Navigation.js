@@ -10,22 +10,22 @@ function Navigation(){
             </div> 
             <ul className="nav-items">
                 <li className="nav-item">
-                    <NavLink to="/home" activeClassName="active-class">Home</NavLink>
+                    <NavLink to="/" activeClassName="active-class" exact>Home</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/about" activeClassName="active-class">About</NavLink>
+                    <NavLink to="/about" activeClassName="active-class" exact>About</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/resume" activeClassName="active-class">Resume</NavLink>
+                    <NavLink to="/resume" activeClassName="active-class" exact>Resume</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/portfolios" activeClassName="active-class">Portfolio</NavLink>
+                    <NavLink to="/portfolios" activeClassName="active-class" exact>Portfolios</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/blogs" activeClassName="active-class">Blogs</NavLink>
+                    <NavLink to="/blogs" activeClassName="active-class" exact>Blogs</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/contact" activeClassName="active-class">Contact</NavLink>
+                    <NavLink to="/contact" activeClassName="active-class" exact>Contact</NavLink>
                 </li>
             </ul>
             <footer className="footer">
@@ -57,40 +57,46 @@ const NavigationStyled = styled.nav`
             
         }
     }
+    
     .nav-items{
-        width:100%;
-        text-align:center;
+        width: 100%;
+        text-align: center;
+        .active{
+            background-color: purple;
+            color: white;
+        }
         li{
-            display:block;
+            display: block;
             a{
-                display:block;
-                padding: .2rem 0;
-                position:relative;
-                z-index:4;
-                
+                display: block;
+                padding: .45rem 0;
+                position: relative;
+                z-index: 10;
+                text-transform: uppercase;
+                transition: all .4s ease-in-out;
+                font-weight: 600;
+                letter-spacing: 1px;
                 &:hover{
-                    cursor:pointer;
-
+                    cursor: pointer;
+                    color: var(--white-color);
                 }
                 &::before{
-                    content:"";
+                    content: "";
                     position: absolute;
-                    bottom:0;
-                    left:0;
-                    width:0;
-                    height:50%;
-                    background-color:purple;
-                    transition:All 0.4s cubic-bezier(1, -0.2, 0.25, 0.95);
-                    z-index:3;
-                    opacity:0.21;
-                    transform-origin:right;
+                    bottom: 0;
+                    left: 0;
+                    width: 0;
+                    height: 50%;
+                    background-color: purple;
+                    transition: All 0.4s cubic-bezier(1,-0.2,.25,.95) ;
+                    opacity: 0.21;
+                    z-index: -1;
                 }
             }
             a:hover::before{
-                width:100%;
-                height:100%
+                width: 100%;
+                height: 100%;
             }
-
         }
     }
     footer{
