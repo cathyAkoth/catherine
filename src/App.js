@@ -26,10 +26,12 @@ const MainContentStyled = styled.main`
     position: absolute;
     min-height: 100vh;
     width:100%;
+    display:flex;
+    justify-content:space-evenly;
     .line-1, .line-2, .line-3, .line-4{
-      width: .4rem;
+      width: 1px;
       min-height:100vh;
-      background-color:red;
+      background-color: var(--border-color);
     }
   }
   
