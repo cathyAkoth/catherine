@@ -14,15 +14,15 @@ return(
                 I am very proactive and on my way to change the world through software engineering.
             </p>
              <div className="icons">
-                 <div className="i-linkedIn">
+                 <a href="https://www.linkedin.com/in/akoth-catherine-cecilia-977352148/" className="icon i-linkedIn">
                     <LinkedInIcon />
-                </div> 
-                 <div className="i-github">
+                </a> 
+                 <a href="https://github.com/cathyAkoth" className="icon i-github">
                     <GithubIcon />
-                </div> 
-                <div className="i-twitter">
+                </a> 
+                <a href="https://twitter.com/akoth_cathy" className="icon i-twitter">
                     <TwitterIcon />
-                </div>
+                </a>
             </div> 
         </div>
     </HomePageStyled>
@@ -40,6 +40,47 @@ const HomePageStyled = styled.header`
         left:50%;
         transform: translate(-50%,-50%);
         text-align:center;
+        width:80%;
+
+        .icons{
+            display:flex;
+            justify-content: center;
+            margin-top: 1rem;
+           .icon{
+               border:2px solid var(--border-color);
+               display: flex;
+               align-items:center;
+               justify-content: center;
+               border-radius: 50%;
+               transition: all .4s ease-in-out;
+               cursor:pointer;
+               &:hover{
+                    border: 2px solid var(--primary-color);
+                    color: var(--primary-color);
+                   }
+
+               &:not(:last-child){
+                   margin-right:1rem;
+                   
+                  
+               }
+               svg{
+                   margin: .5rem;
+               }
+           }
+           .i-linkedIn{
+               &:hover{
+                   border: 2px solid blue;
+                   color:blue;
+               }
+           } 
+           .i-twitter{
+               &:hover{
+                   border: 2px solid grey;
+                   color:grey;
+               }
+           } 
+        }
     }
 `;
 
