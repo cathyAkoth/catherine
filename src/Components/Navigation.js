@@ -61,7 +61,7 @@ const NavigationStyled = styled.nav`
     .nav-items{
         width: 100%;
         text-align: center;
-        .active{
+        .active-class{
             background-color: purple;
             color: white;
         }
