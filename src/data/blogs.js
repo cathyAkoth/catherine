@@ -1,7 +1,8 @@
-import blog1 from  '../img/blogs/blog1.svg';
-import blog3 from  '../img/blogs/blog3.svg';
-import blog2 from  '../img/blogs/blog2.svg';
-import blog4 from  '../img/blogs/blog4.svg';
+import blog1 from  '../img/websitehow.jpg';
+import blog3 from  '../img/websitehow.jpg';
+import blog2 from  '../img/websitehow.jpg';
+import blog4 from  '../img/websitehow.jpg';
+
 
 const blogs = [
     {
@@ -9,7 +10,8 @@ const blogs = [
         title: 'How To Work from Home',
         date: '01',
         month: 'April',
-        image: blog1
+        image: blog1,
+        link: 'https://www.youtube.com/watch?v=w8I1m1n-7Lg/'
     },
     {
         id: 2,
