@@ -40,7 +40,6 @@ const TitleStyled = styled.div`
             font-weight:900;
             color: rgba(25,29,43,44); 
             font-size:3.4rem;
-            opacity:2.5;
             position:absolute;
             left: 0;
             top: 30%;
