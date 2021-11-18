@@ -53,7 +53,8 @@ const NavigationStyled = styled.nav`
         img{
             width:70%;
             border-radius:50%;
-            border:8px solid var(--border-color);
+            border:6px solid var(--border-color);
+            
             
         }
     }
@@ -107,7 +108,7 @@ const NavigationStyled = styled.nav`
             font-size:1.1rem;
             display:block;
             text-align:center;
-            color:purple;
+            color:var(--primary-color);
         }
     }
 `;
