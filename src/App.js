@@ -6,7 +6,7 @@ import BlogsPage from "./Pages/BlogsPage";
 import ContactPage from "./Pages/ContactPage";
 import AboutPage from "./Pages/AboutPage";
 import ResumePage from "./Pages/ResumePage";
-import PortfolioPage from "./Pages/PortfolioPage";
+import PortfolioPage from "./Pages/PortfoliosPage";
 function App() {
   return (
     <div className="App">
