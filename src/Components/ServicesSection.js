@@ -3,15 +3,30 @@ import {InnerLayout} from '../styles/Layouts';
 import styled from 'styled-components';
 import Title from './Title';
 import ServiceCard from './ServiceCard';
-
-
+import design from '../img/weddev-removebg-preview.png';
+import intelligence from '../img/mobile-removebg-preview.png';
+import game from '../img/teaching-removebg-preview.png'
 function ServicesSection(){
     return(
         <InnerLayout>
             <ServicesSectionStyled>
                 <Title title={'Services'} span={'services'} />
                 <div className="services">
-                    <ServiceCard />
+                    <ServiceCard 
+                    image={design} 
+                    title={'Web Design'} 
+                    paragraph={'hashajshajsdhsdn jndjsdjsjkdjsa lksdkjsjdks jdkjsdjkdkj'}
+                    />
+                     <ServiceCard 
+                    image={intelligence} 
+                    title={'Mobile Applications'} 
+                    paragraph={'hashajshajsdhsdn jndjsdjsjkdjsa lksdkjsjdks jdkjsdjkdkj'}
+                    />
+                     <ServiceCard 
+                    image={game} 
+                    title={'Teaching Services'} 
+                    paragraph={'hashajshajsdhsdn jndjsdjsjkdjsa lksdkjsjdks jdkjsdjkdkj'}
+                    />
                 </div>
             </ServicesSectionStyled>
         </InnerLayout>
