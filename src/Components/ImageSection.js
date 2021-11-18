@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import resume from "../img/cathybg.png";
+import PrimaryButton from './PrimaryButton';
+
 function ImageSection() {
     return (
         <ImageSectionStyled>
@@ -33,6 +35,7 @@ function ImageSection() {
                         <p>: Freelance</p>
                     </div>
                 </div>
+                <PrimaryButton title={'Download Cv'} />
                
             </div>
         </ImageSectionStyled>

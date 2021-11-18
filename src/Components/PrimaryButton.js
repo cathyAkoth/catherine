@@ -1,46 +1,37 @@
-import React from 'react';
+import React from 'react'
 import styled from 'styled-components';
 
-function Button({filter, button}) {
+function PrimaryButton({title}) {
     return (
-        <ButtonsStyled>
-            {
-                button.map((but, i) =>{
-                    return <ButtonStyled key={i} onClick={() => filter(but)}>
-                        {but}
-                    </ButtonStyled>
-                })
-            }
-        </ButtonsStyled>
+        <PrimaryButtonStyled>
+            {title}
+        </PrimaryButtonStyled>
     )
 }
 
-const ButtonStyled = styled.button`
-    outline: none;
-    border: none;
-    background-color: var(--background-light-color-2);
-    padding: .4rem 2rem;
-    font-size: inherit;
-    color: var(--white-color);
+const PrimaryButtonStyled = styled.a`
+    background-color:purple;
+    padding: .8rem 2.5rem;
+    color: white;
     cursor: pointer;
+    display: inline-block;
+    font-size: inherit;
+    text-transform: uppercase;
+    position: relative;
     transition: all .4s ease-in-out;
-    margin-bottom: .6rem;
-    &:active ,&:focus{
+    &::after{
+        content: "";
+        position: absolute;
+        width: 0;
+        height: .2rem;
+        transition: all .4s ease-in-out;
+        left: 0;
+        bottom: 0;
+        opacity: .7;
+    }
+    &:hover::after{
+        width: 100%;
         background-color: var(--primary-color);
     }
-    &:hover{
-        background-color: var(--primary-color);
-    }
-    &:not(:last-child){
-        margin-right: .6rem;
-    }
 `;
-const ButtonsStyled = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 70%;
-    margin: 2.4rem auto;
-`;
-export default Button;
+export default PrimaryButton;
