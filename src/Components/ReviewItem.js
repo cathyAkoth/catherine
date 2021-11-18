@@ -11,8 +11,8 @@ function ReviewItem({text}) {
 
 const RevivewItemStyled = styled.div`
     padding: 2rem 1rem;
-    border-left: 6px solid var(--border-color);
-    background-color: var(--background-dark-grey);
+    border-left: 6px solid purple;
+    background-color:var(--background-dark-grey);
     position: relative;
     width: 100%;
     &:not(:first-child){

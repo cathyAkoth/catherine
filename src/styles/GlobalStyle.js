@@ -13,6 +13,7 @@ const GlobalStyle = createGlobalStyle`
     --font-light-color: #a4acc4;
     --font-dark-color: #313131;
     --font-dark-color-2: #151515;
+    --background-dark-grey: #191D2B;
 }
     *{
         padding:0;
