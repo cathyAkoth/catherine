@@ -12,9 +12,13 @@ function ImageSection() {
             <div className="right-content">
                 <h4>I am <span>Akoth Catherine Ceccilia</span></h4>
                 <p className="paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, natus quas vero enim 
-                    praesentium delectus est id fugiat ab libero adipisci recusandae at maxime veritatis! 
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, nesciunt.
+                I am a software engineer passionate about changing the world one step at a time starting with the places closest to me. I am going to change the world through Tech.
+
+                I love obtaining solutions to problems through software development.
+
+                I have a yearning for new knowledge whenever I can get it and I dont take any learning oppotunity I get for granted.
+
+                I am passionate about the things I love,eager and capable to learn,result-oriented,proactive with a high capabi;ity and desire to share knowledge.
                     
                 </p>
                 <div className="about-info">
@@ -70,24 +74,29 @@ const ImageSectionStyled = styled.div`
         }
         .paragraph{
             padding: 1rem 0;
+            font-size: 1.6rem;
         }
         .about-info{
             display: flex;
             padding-bottom: 1.4rem;
             color:purple;
+            margin-top:5%;
 
             
             .info-title{
                 padding-right: 3rem;
                 p{
-                    font-weight: 600;
+                    font-weight: 1.6rem;
+                    font-size:1.6rem;
                     color: var(--white-color);
+
                     
                 }
             }
             .info-title, .info{
                 p{
                     padding: .3rem 0;
+                    font-size: 1.6rem;
                    
                 }
             }

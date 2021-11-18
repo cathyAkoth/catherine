@@ -10,6 +10,9 @@ function Title({title, span}){
 
 const TitleStyled = styled.div`
     position: relative;
+    h1{
+        color: var(--primary-color);
+    }
     h2{
         color: purple;
         font-size:3rem;
