@@ -73,11 +73,13 @@ body::-webkit-scrollbar{
 }
 body::-webkit-scrollbar-thumb{
     border-radius: 10px;
-    background-color: #6b6b6b;
+    background-color:purple;
+    /* background-color: #6b6b6b; */
 }
 body::-webkit-scrollbar-track{
     border-radius: 10px;
-    background-color: #383838;
+    
+     background-color: #383838; 
 }
 textarea{
     max-width: 100%;

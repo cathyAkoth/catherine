@@ -68,9 +68,11 @@ function Resume() {
 const ResumeStyled = styled.section`
     .small-title{
         padding-bottom: 3rem;
+        color:purple;
     }
     .u-small-title-margin{
         margin-top: 4rem;
+        
     }
     .resume-content{
         border-left: 2px solid var(--border-color);

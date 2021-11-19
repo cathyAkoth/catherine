@@ -12,7 +12,7 @@ import Brightness4Icon from '@material-ui/icons/Brightness4';
 import MenuIcon from '@material-ui/icons/Menu';
 import { Route, Switch as Switching } from "react-router";
 import Switch from '@material-ui/core/Switch'
-//import { IconButton } from "@material-ui/core";
+import { IconButton } from "@material-ui/core";
 
 function App() {
   const [theme, setTheme] = useState('dark-theme');
@@ -55,6 +55,12 @@ function App() {
             </div>
         </div>
 
+        <div className="ham-burger-menu">
+          <IconButton onClick={() => setNavToggle(!navToggle)}>
+              <MenuIcon />
+          </IconButton>
+        </div>
+
       <MainContentStyled>
         {/* <div className="lines">
           <div className="line-1"></div>
@@ -92,9 +98,12 @@ function App() {
 }
 
 const MainContentStyled = styled.main`
-  position:relative;
-  margin-left:16.3rem;
-  min-height:100vh;
+  position: relative;
+  margin-left: 16.3rem;
+  min-height: 100vh;
+  @media screen and (max-width:1200px){
+    margin-left: 0;
+  }
 
   
 
