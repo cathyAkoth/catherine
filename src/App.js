@@ -1,34 +1,60 @@
+import { useState } from "react";
+import { useEffect } from "react";
 import Sidebar from "./Components/Sidebar";
-import styled from "styled-components";
+import styled from 'styled-components';
 import HomePage from "./Pages/HomePage";
-import {Route, Switch as Switching} from "react-router-dom";
-import BlogsPage from "./Pages/BlogsPage";
-import ContactPage from "./Pages/ContactPage";
-import AboutPage from "./Pages/AboutPage";
-import ResumePage from "./Pages/ResumePage";
-import PortfolioPage from "./Pages/PortfoliosPage";
+import AboutPage from './Pages/AboutPage';
+import ResumePage from './Pages/ResumePage';
+import PortfoliosPage from './Pages/PortfoliosPage';
+import BlogsPage from './Pages/BlogsPage';
+import ContactPage from './Pages/ContactPage';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
-
-import  Switch  from "@material-ui/core/Switch";
+import MenuIcon from '@material-ui/icons/Menu';
+import { Route, Switch as Switching } from "react-router";
+import Switch from '@material-ui/core/Switch'
+//import { IconButton } from "@material-ui/core";
 
 function App() {
+  const [theme, setTheme] = useState('dark-theme');
+  const [checked, setChecked] = useState(false);
+  const [navToggle, setNavToggle] = useState(false);
+
+  useEffect(()=>{
+    document.documentElement.className = theme;
+  }, [theme]);
+
+  const themeToggler = () =>{
+    if(theme === 'light-theme'){
+      setTheme('dark-theme');
+      setChecked(false)
+    }else{
+      setTheme('light-theme');
+      setChecked(true)
+    }
+  }
+
   return (
     <div className="App">
-      <Sidebar />
-      <div className = "light-dark-mode">
-          <div className="left-content">
-            <Brightness4Icon />
-          </div>
-          <div className="right-content">
-            <Switch
-              value=""
-              // checked={}
-              // onChange={}
-              inputProps={{'aria-label': ''}}
-              size="medium"
-            />
-          </div>
+        <Sidebar navToggle={navToggle} />
+
+        <div className="theme">
+          <div className="light-dark-mode">
+              <div className="left-content">
+                <Brightness4Icon />
+              </div>
+              <div className="right-content">
+                <Switch
+                  value=""
+                  checked={checked}
+                  inputProps={{ 'aria-label': '' }}
+                  size="medium"
+                  onClick={themeToggler}
+                  
+                />
+              </div>
+            </div>
         </div>
+
       <MainContentStyled>
         {/* <div className="lines">
           <div className="line-1"></div>
@@ -50,7 +76,7 @@ function App() {
             <ResumePage />
           </Route>
           <Route path="/portfolios" exact>
-            <PortfolioPage />
+            <PortfoliosPage />
           </Route>
           <Route path="/contact" exact>
             <ContactPage />
