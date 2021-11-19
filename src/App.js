@@ -15,15 +15,7 @@ function App() {
   return (
     <div className="App">
       <Sidebar />
-      <MainContentStyled>
-        {/* <div className="lines">
-          <div className="line-1"></div>
-          <div className="line-2"></div>
-          <div className="line-3"></div>
-          <div className="line-4"></div>
-        </div> */}
-
-        <div className = "light-dark-mode">
+      <div className = "light-dark-mode">
           <div className="left-content">
             <Brightness4Icon />
           </div>
@@ -37,6 +29,15 @@ function App() {
             />
           </div>
         </div>
+      <MainContentStyled>
+        {/* <div className="lines">
+          <div className="line-1"></div>
+          <div className="line-2"></div>
+          <div className="line-3"></div>
+          <div className="line-4"></div>
+        </div> */}
+
+        
 
         <Switching>
           <Route path="/" exact>
@@ -69,23 +70,7 @@ const MainContentStyled = styled.main`
   margin-left:16.3rem;
   min-height:100vh;
 
-  .light-dark-mode{
-    position: absolute;
-    right:0;
-    top: 10%;
-    background-color: var(--primary-color);
-    width: 6.5rem;
-    height: 2.5rem;
-    z-index: 15;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    svg{
-      display: flex;
-      align-items: center;
-      font-size: 1.7rem;
-    }
-  }
+  
 
   .lines{
     position: absolute;
