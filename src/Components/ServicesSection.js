@@ -14,8 +14,8 @@ function ServicesSection(){
                 <div className="services">
                     <ServiceCard 
                     image={design} 
-                    title={'Web Design'} 
-                    paragraph={'hashajshajsdhsdn jndjsdjsjkdjsa lksdkjsjdks jdkjsdjkdkj'}
+                    title={'Web-Site Design'} 
+                    paragraph={"Websites are designed according to the client's needs and desires. All kinds of websites are designed to be used on all kinds of screens at prices that are customed to client's requests."}
                     />
                      <ServiceCard 
                     image={intelligence} 
