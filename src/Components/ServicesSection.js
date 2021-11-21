@@ -20,7 +20,7 @@ function ServicesSection(){
                      <ServiceCard 
                     image={intelligence} 
                     title={'Mobile Applications'} 
-                    paragraph={'hashajshajsdhsdn jndjsdjsjkdjsa lksdkjsjdks jdkjsdjkdkj'}
+                    paragraph={"All kinds of mobile applications including games are designed professionally and tailored to customer's needs at affordable rates"}
                     />
                      <ServiceCard 
                     image={game} 
