@@ -14,18 +14,18 @@ function ServicesSection(){
                 <div className="services">
                     <ServiceCard 
                     image={design} 
-                    title={'Web-Site Design'} 
+                    title={'Web-Site Design and Maintainace'} 
                     paragraph={"Websites are designed according to the client's needs and desires. All kinds of websites are designed to be used on all kinds of screens at prices that are customed to client's requests."}
                     />
                      <ServiceCard 
                     image={intelligence} 
                     title={'Mobile Applications'} 
-                    paragraph={"All kinds of mobile applications including games are designed professionally and tailored to customer's needs at affordable rates"}
+                    paragraph={"All kinds of mobile applications including games are designed professionally and tailored to customer's needs at affordable rates."}
                     />
                      <ServiceCard 
                     image={game} 
                     title={'Teaching Services'} 
-                    paragraph={'hashajshajsdhsdn jndjsdjsjkdjsa lksdkjsjdks jdkjsdjkdkj'}
+                    paragraph={"Teaching others about web-design is a calling. Whether you are a complete beginer of just want to polish up. We teach also children web-design"}
                     />
                 </div>
             </ServicesSectionStyled>
