@@ -10,15 +10,17 @@ function ImageSection() {
                 <img src={resume} alt=""/>
             </div>
             <div className="right-content">
-                <h4>I am <span>Akoth Catherine Ceccilia</span></h4>
+                <h4>Hello, I am <span>Akoth Catherine Cecilia</span></h4>
                 <p className="paragraph">
-                I am a software engineer passionate about changing the world one step at a time starting with the places closest to me. I am going to change the world through Tech.
+                I am a software engineer passionate about changing the world one step at a time starting with the problems around me. 
 
-                I love obtaining solutions to problems through software development.
-
-                I have a yearning for new knowledge whenever I can get it and I dont take any learning oppotunity I get for granted.
-
-                I am passionate about the things I love,eager and capable to learn,result-oriented,proactive with a high capabi;ity and desire to share knowledge.
+                Identifying both simple and complex problems is something am Passionate about and obtaining solutions to them 
+                is what I live for. 
+                </p>
+                <p className="paragraph" >
+                I am passionate, creative, proactive, self-motivated with a keen eye for details.
+                
+                Not forgeting my eagerness and capablility to learn with a result-oriented mind-set.
                     
                 </p>
                 <div className="about-info">
