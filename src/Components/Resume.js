@@ -41,24 +41,25 @@ function Resume() {
                     <SmallTitle icon={school} title={'Educational Qualifications'} />
                 </div>
                 <div className="resume-content ">
-                    <ResumeItem 
-                        year={'201 - 2022'} 
-                        title={'Computer Science Degree'}
-                        subTitle={'Sussex University'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                <ResumeItem 
+                        year={'Jan,2021 - Nov,2021'} 
+                        title={"Certificate in Software Development."}
+                        subTitle={'Refactory Ug'}
+                        text={"Obtained 3 Months training with the catalyst program then 6 months apprenticeship working on a reallife project."} 
                     />
-                    <ResumeItem 
-                        year={'2015 - 2017'} 
-                        title={'A - Levels'}
-                        subTitle={'Church Hill High'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                <ResumeItem 
+                        year={'Sept,2021 - Nov,2021'} 
+                        title={"Certificate in Web Development."}
+                        subTitle={'Code Queen- ETC'}
+                        text={"Obtained 3 Months training with Code Queen on Web development and then participated in  1 week hackathon designing a project."} 
                     />
-                    <ResumeItem 
-                        year={'2015 - 2017'} 
-                        title={'High School Graduation'}
-                        subTitle={'ABC School'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
-                    />
+                <ResumeItem 
+                    year={'2010 - 2015'} 
+                    title={"Bachelors' in Software Engineering "}
+                    subTitle={'Makerere University'}
+                    text={"Obtained a bachelors' degree in software engineering from college of Information Technology and computing. "} 
+                />
+                    
                 </div>
             </InnerLayout>
         </ResumeStyled>    
