@@ -25,7 +25,7 @@ const portfolios = [
     },
     {
         id: 3,
-        category: 'Javascript',
+        category: 'React.js',
         image: img3,
         link1: 'https://www.google.com',
         link2: 'https://www.google.com',
@@ -43,7 +43,7 @@ const portfolios = [
     },
     {
         id: 5,
-        category: 'Animation',
+        category: 'node.js',
         image: img2,
         link1: 'https://www.google.com',
         link2: 'https://www.google.com',
