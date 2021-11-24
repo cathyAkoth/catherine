@@ -19,22 +19,22 @@ function Resume() {
                 </div>
                 <div className="resume-content">
                     <ResumeItem 
-                        year={'2015 - 2020'} 
-                        title={'Computer Science Teacher'}
-                        subTitle={'Sussex University'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        year={'may,2021-nov,2021'} 
+                        title={'APPRENTICESHIP'}
+                        subTitle={'Refactory'}
+                        text={'Worked on a reallife project with Laboremus-UG.Working on a web application using .net framework and DDD architecture.'} 
                     />
                     <ResumeItem 
-                        year={'2015 - Present'} 
-                        title={'Full Stack Developer'}
-                        subTitle={'Microsoft Studios'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        year={'July - 2020 to Sept-2020'} 
+                        title={'Capacity Building Officer'}
+                        subTitle={'Rakai Health Sciences'}
+                        text={'Identifying gaps in the implementation of the project and finding solutions to those gaps while giving mentorship to peers.'} 
                     />
                     <ResumeItem 
-                        year={'2010 - 2017'} 
-                        title={'User Interface Designer'}
-                        subTitle={'Google Inc'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        year={'October 2017 to December 2019'} 
+                        title={' DREAMS M&E Officer'}
+                        subTitle={'Villa Maria Home Care Program, Uganda'}
+                        text={'Overseeing DREAMS reporting in UDOTS while supervising and mentoring the data entrants on for proper records keeping.'}                       
                     />
                 </div>
                 <div className="small-title u-small-title-margin">
