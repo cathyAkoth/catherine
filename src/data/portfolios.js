@@ -16,7 +16,7 @@ const portfolios = [
     },
     {
         id: 2,
-        category: 'Python',
+        category: '.net C#',
         image: img3,
         link1: 'https://www.google.com',
         link2: 'https://www.google.com',
