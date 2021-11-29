@@ -18,34 +18,35 @@ function Skills() {
                         />
                         <ProgressBar 
                             title={'CSS3'}
-                            width={'90%'}
-                            text={'90%'}
+                            width={'70%'}
+                            text={'70%'}
+                        />
+                        <ProgressBar 
+                            title={'Bootstrap'}
+                            width={'80%'}
+                            text={'80%'}
                         />
                         <ProgressBar 
                             title={'JAVASCRIPT'}
-                            width={'85%'}
-                            text={'85%'}
+                            width={'80%'}
+                            text={'80%'}
                         />
                         <ProgressBar 
-                            title={'JAVA'}
-                            width={'60%'}
-                            text={'60%'}
+                            title={'.Net Core C#'}
+                            width={'70%'}
+                            text={'70%'}
                         />
                         <ProgressBar 
-                            title={'PYTHON'}
-                            width={'95%'}
-                            text={'95%'}
+                            title={'Node.js'}
+                            width={'80%'}
+                            text={'80%'}
                         />
                         <ProgressBar 
                             title={'React JS'}
                             width={'75%'}
                             text={'75%'}
                         />
-                        <ProgressBar 
-                            title={'UNITY'}
-                            width={'75%'}
-                            text={'75%'}
-                        />
+                        
                     </div>
                 </InnerLayout>
         </SkillsStyled>

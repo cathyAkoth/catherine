@@ -45,7 +45,7 @@ function Resume() {
                         year={'Jan,2021 - Nov,2021'} 
                         title={"Certificate in Software Development."}
                         subTitle={'Refactory Ug'}
-                        text={"Obtained 3 Months training with the catalyst program then 6 months apprenticeship working on a reallife project."} 
+                        text={"Obtained 3 Months training with the catalyst program then 6 months apprenticeship working on a reallife project with Laboremus Ug."} 
                     />
                 <ResumeItem 
                         year={'Sept,2021 - Nov,2021'} 
@@ -54,10 +54,10 @@ function Resume() {
                         text={"Obtained 3 Months training with Code Queen on Web development and then participated in  1 week hackathon designing a project."} 
                     />
                 <ResumeItem 
-                    year={'2010 - 2015'} 
-                    title={"Bachelors' in Software Engineering "}
-                    subTitle={'Makerere University'}
-                    text={"Obtained a bachelors' degree in software engineering from college of Information Technology and computing. "} 
+                        year={'2010 - 2015'} 
+                        title={"Bachelors' in Software Engineering "}
+                        subTitle={'Makerere University'}
+                        text={"Under took a course in software engineering from college of Information Technology and computing obtaining degree in software Engineering."} 
                 />
                     
                 </div>
