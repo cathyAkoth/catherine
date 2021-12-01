@@ -54,7 +54,7 @@ const portfolios = [
         id: 6,
         category: 'React.js',
         image: react1,
-        link1: 'https://www.google.com',
+        link1: 'https://catherineakoth.herokuapp.com',
         link2: 'https://www.google.com',
         title: 'Responsive Portfolio Website',
         text: 'Created using different technologies such as Material UI, Styled-Components and more...'
