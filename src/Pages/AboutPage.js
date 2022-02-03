@@ -4,7 +4,7 @@ import {MainLayout} from '../styles/Layouts';
 import Title from "../Components/Title";
 import ImageSection from '../Components/ImageSection';
 import ServicesSection from '../Components/ServicesSection';
-import ReviewsSetion from '../Components/ReviewsSection';
+// import ReviewsSetion from '../Components/ReviewsSection';
 
 function AboutPage(){
     return(
@@ -13,7 +13,7 @@ function AboutPage(){
                 <Title title={'About Me'} span={'About Me'} />
                 <ImageSection />
                 <ServicesSection />
-                <ReviewsSetion />
+                {/* <ReviewsSetion /> */}
             </AboutStyled>
         </MainLayout>
     )
