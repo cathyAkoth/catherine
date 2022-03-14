@@ -26,16 +26,20 @@ function ImageSection() {
                 <div className="about-info">
                     <div className="info-title">
                         <p>Name</p>
-                        
+                        <br/>
                         <p>Nationality </p>
+                        <br/>
                         <p>Languages </p>
                         <p>Location</p>
+                        <br/>
+                        <br/>
                         <p>Service</p>
                     </div>
                     <div className="info">
                         <p>: Catherine Cecilia Akoth</p>
                       
                         <p>: Ugandan </p>
+                        <br/>
                         <p>: English </p>
                         <p>: Uganda, East Africa</p>
                         <p>: Freelance</p>
@@ -97,7 +101,7 @@ const ImageSectionStyled = styled.div`
             }
             .info-title, .info{
                 p{
-                    padding: .3rem 0;
+                    padding: .4rem 0;
                     font-size: 1.6rem;
                    
                 }
