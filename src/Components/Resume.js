@@ -22,13 +22,13 @@ function Resume() {
                         year={'may,2021-nov,2021'} 
                         title={'APPRENTICESHIP'}
                         subTitle={'Refactory'}
-                        text={'Worked on a reallife project with Laboremus-UG.Working on a web application using .net framework and DDD architecture.'} 
+                        text={'Worked on a reallife project with Laboremus-UG. Working on a web application using .net framework and DDD architecture. '} 
                     />
                     <ResumeItem 
                         year={'July - 2020 to Sept-2020'} 
                         title={'Capacity Building Officer'}
                         subTitle={'Rakai Health Sciences'}
-                        text={'Identifying gaps in the implementation of the project and finding solutions to those gaps while giving mentorship to peers.'} 
+                        text={'Identifying gaps in the implementation of the project and finding solutions to those gaps while giving mentorship to peers'} 
                     />
                     <ResumeItem 
                         year={'October 2017 to December 2019'} 
